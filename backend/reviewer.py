@@ -14,6 +14,7 @@ template = """
     2. Performance issues
     3. Code quality improvements
     4. Security concerns
+    5. Severity of the issues low, medium or high based on bugs, performance, quality and security issues.
     
     Rules:
     - Output ONLY valid JSON.
@@ -25,7 +26,8 @@ template = """
         "bugs": ["string"],
         "performance": ["string"],
         "security": ["string"],
-        "quality": ["string"]
+        "quality": ["string"],
+        "severity": "low|medium|high"
     }}
 
     If unsure, return an empty valid JSON structure.
