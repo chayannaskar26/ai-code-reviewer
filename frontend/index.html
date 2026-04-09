@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Reviewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AI Code Reviewer</a>
+        </div>
+    </nav>
+    <div id="loader-wrapper" class="d-none">
+        <div class="spinner-wrapper">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="form-floating">
+            <textarea class="form-control text-area" placeholder="Leave a comment here" id="code-area"></textarea>
+            <label for="code-area">Code</label>
+        </div>
+
+        <button type="button" class="btn btn-primary mt-3" onclick="submitCode()">Review</button>
+    </div>
+
+    <div id="code-bugs">
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
