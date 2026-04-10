@@ -1,0 +1,12 @@
+body {
+  background-color: var(--bg-dark) !important;
+}
+
+.alert-container {
+  border-radius: 16px;
+  backdrop-filter: blur(20px);
+  background: rgba(22, 30, 47, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+}

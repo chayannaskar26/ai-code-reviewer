@@ -1,0 +1,17 @@
+.badge {
+	float: right;
+}
+
+.card-header-text {
+	color: #fff;
+	padding-left: 1rem;
+}
+
+.list-style li span {
+	color: #fff;
+}
+
+.additional-issues {
+	color: #fff;
+	padding-left: 1rem;
+}

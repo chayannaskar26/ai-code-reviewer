@@ -24,6 +24,16 @@
         z-index: 9999;
     }
 
+    .text-purple {
+        color: violet;
+    }
+
+    /* .list-style {
+        padding-left: 1rem;
+    } */
+    .list-style li span{
+        color: #333;
+    }
 
     .spinner {
         width: 56px;
